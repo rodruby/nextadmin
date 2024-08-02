@@ -1,6 +1,7 @@
 import NavBar from "@/app/ui/dashboard/navbar/navbar";
 import SideBar from "@/app/ui/dashboard/sidebar/sidebar";
 import styles from "@/app/ui/dashboard/dashboard.module.css";
+import Footer from "../ui/dashboard/footer/footer";
 
 export default function Layout ({ children }) {
 
@@ -12,6 +13,7 @@ export default function Layout ({ children }) {
             <div className={styles.content}>
                 <NavBar/>
                 { children }
+                <Footer />
             </div>
         </div>
     )

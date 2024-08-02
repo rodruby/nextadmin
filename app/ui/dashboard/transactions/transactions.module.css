@@ -1,0 +1,48 @@
+.container {
+    background-color: var(--bgSoft);
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.table {
+    width: 100%;
+}
+
+.title  { 
+    padding-bottom: 20px;
+    color: var(--textSoft);
+}
+
+.table td {
+    padding: 10px;
+}
+
+.user {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.user img {
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.pending {
+    padding: 5px;
+    background-color: coral;
+    border-radius: 5px;
+}
+
+.done {
+    padding: 5px;
+    background-color: lightgreen;
+    border-radius: 5px;
+}
+
+.cancelled {
+    padding: 5px;
+    background-color:firebrick;
+    border-radius: 5px;
+}
